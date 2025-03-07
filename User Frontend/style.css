@@ -1,0 +1,360 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+}
+
+/* Main Content */
+.main-content {
+  margin-left: 270px;
+  padding: 20px;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;  
+}
+
+/* Admission form 1 */
+.title {
+  background-color: #d0d0e1; 
+  padding: 20px; 
+  margin-top: 20px;
+  height: 60px; 
+  display: flex;
+  align-items: center; 
+  border-radius: 10px;
+}
+
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  height: 200px;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+      /* end */
+
+.apply-btn {
+  background-color: #ff69b4;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.apply-btn:hover {
+  background-color: #ff1414;
+}
+
+
+  /* Admission form page css */
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background: #f4f4f4;
+}
+
+/* Form Container Styling */
+.form-container {
+    margin-left: 450px;
+    margin-top: 20px;
+    width: 50%;
+    padding: 20px;
+    height: 155vh; 
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    
+    
+}
+
+h2, h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background: #2c3e50;
+    color: white;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #f21b1b;
+}
+
+/* Application Status page css */
+
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Status Card Styling */
+.status-card {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.status-card h2 {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.status-card p {
+  margin: 8px 0;
+  color: #555;
+}
+
+/* Status Text */
+.status {
+  font-weight: bold;
+}
+
+.status.pending {
+  color: orange;
+}
+
+.status.accepted {
+  color: green;
+}
+
+.status.rejected {
+  color: red;
+}
+
+.status.yes {
+  color: green;
+}
+
+.status.no {
+  color: red;
+}
+
+/* Button Styling */
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Change password page css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f6;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  margin-left: 260px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+.change-password-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  text-align: center;
+  margin-left: 330px;
+}
+.change-password-container h2 {
+  margin-bottom: 20px;
+}
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+.input-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.submit-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.submit-btn:hover {
+  background-color: #218838;
+}
+
+/* Profile page css and also Change-Password css */
+
+.profile-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+  background-color: #c0bfd3;
+  padding: 15px;
+  border-radius: 10px 10px 0 0;
+  margin: -20px -20px 20px;
+  font-size: 18px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.row {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.full-width {
+  width: 501px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  height: 35px;
+}
+
+.update-btn {
+  background-color: #16202a;
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.update-btn:hover {
+  background-color:  #a6a5c7;
+}
+
